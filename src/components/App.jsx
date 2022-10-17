@@ -7,7 +7,7 @@ import {
 	addContacts,
 	deleteContacts,
 	changeFilter,
-} from './redux/contactSlice';
+} from '../redux/contactSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 export function App() {
